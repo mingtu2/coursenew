@@ -12,11 +12,16 @@
     <groupId>com.coursenew</groupId>
     <artifactId>system</artifactId>
     <dependencies>
-        <!--添加eureka 服务jar-->
+        <!--添加eureka 客户端 服务jar-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
             <version>2.2.2.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
