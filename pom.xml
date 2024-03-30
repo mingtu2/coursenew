@@ -55,11 +55,18 @@
 				<version>5.1.28</version>
 			</dependency>
 
-			<!--增加server模块-->
+		<!--	&lt;!&ndash;增加server模块&ndash;&gt;
 			<dependency>
 				<artifactId>server</artifactId>
 				<groupId>com.coursenew</groupId>
 				<version>0.0.1-SNAPSHOT</version>
+			</dependency>-->
+
+			<!-- mybatis分页插件pagehelper -->
+			<dependency>
+				<groupId>com.github.pagehelper</groupId>
+				<artifactId>pagehelper-spring-boot-starter</artifactId>
+				<version>1.2.10</version>
 			</dependency>
 		</dependencies>
 
@@ -92,6 +99,8 @@
 				</dependencies>
 			</plugin>
 		</plugins>
+
+		<defaultGoal>compile</defaultGoal>
 	</build>
 
 </project>

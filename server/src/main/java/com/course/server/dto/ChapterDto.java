@@ -1,6 +1,10 @@
-package com.course.server.entity;
+package com.course.server.dto;
 
-public class Chapter {
+/**
+ * @author mingtu
+ * @create 2024-03-30 14:52
+ */
+public class ChapterDto {
     private String id;
 
     private String courseId;

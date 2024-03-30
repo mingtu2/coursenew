@@ -46,6 +46,11 @@
             <artifactId>server</artifactId>
             <groupId>com.coursenew</groupId>
         </dependency>
+        <dependency>
+            <groupId>com.coursenew</groupId>
+            <artifactId>server</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
